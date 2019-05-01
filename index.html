@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8" />
+  <meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title></title>
+  <title>فرسان-الصفحة الرئيسية</title>
 	
-	<link rel="shortcut icon" href="assets/img/">
+	<link rel="shortcut icon" href="assets/img/1742-oncoming-taxi.png">
 
 	
 	<!-- BOOTSTRAP -->
@@ -22,97 +22,78 @@
 
   <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+  <style>
+  .active{
+    color:#009688;
+  }
+  </style>
+  <script>
+  $(document).ready(function(){
+      $(this).addClass("active");
+  });
+  </script>
 </head>
     <body>
     <div class="container-fluied">
         <div class="row">
-           <div class="part col-md-2 col-sm-12 col-xs-12" style="border-color:whitesmoke; height: 655px; width: 250px;background-color: #fafafa;">
+           <div class="part col-md-2 col-sm-12 col-xs-12" style="border-color:whitesmoke; height: 640px; width: 256px;background-color: #FAFAFA; position: fixed; z-index: 2000;">
                <div class="prof">
-                  <h1>Profile Name</h1>
-                 <div class="pic" style="font-size:20px;text-align: center;
-                 padding-top: 14px;
-                 color: whitesmoke;"><p>N</p></div>
+                  <h1>فرسان</h1>
                  
               </div>
                <br>
-                <ul class="nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" href="index.html"><i class="fa fa-list"></i>&nbsp &nbsp &nbsp Dashboard</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa fa-phone"></i>&nbsp &nbsp &nbsp Call Request</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa fa-info-circle"></i>&nbsp &nbsp &nbsp Complaints</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><span class="glyphicon glyphicon-euro" aria-hidden="true"></span>&nbsp &nbsp &nbsp Payment requests</a>
-                  </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa fa-gift"></i>&nbsp &nbsp &nbsp Coupons</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa fa-car"></i>&nbsp &nbsp &nbsp Drivers</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="riders.html"><i class="fas fa-users"></i>&nbsp &nbsp &nbsp Riders</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><i class="fa fa-bullhorn"></i>&nbsp &nbsp &nbspPromotions</a>
-                  </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa fa-suitcase"></i>&nbsp &nbsp &nbsp Travels</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>&nbsp &nbsp &nbsp Media Library</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><span class="glyphicon glyphicon-book" aria-hidden="true"></span>&nbsp &nbsp &nbsp Base Definations</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><i class="fa fa-cog"></i>&nbsp &nbsp &nbsp Settings</a>
-                  </li>
-                    <li class="nav-item">
-                    <a class="nav-link " href="#" tabindex="-1" aria-disabled="true"><i class="fas fa-door-open"></i>&nbsp &nbsp &nbsp Logout</a>
-                  </li>
-                </ul>
+                
+                    <a  href="index.html"><h5 class="active"><i class="fa fa-list"></i>&nbsp &nbsp &nbsp لوحة التحكم</h5></a>
+                  
+                  
+                    <a  href="complaints.html"><h5><i class="fa fa-info-circle"></i>&nbsp &nbsp &nbsp الشكاوى</h5></a>
+                  
+                  
+                    <a  href="drivers.html"><h5><i class="fa fa-car"></i>&nbsp &nbsp &nbsp السائقين</h5></a>
+                  
+                    <a  href="riders.html"><h5><i class="fas fa-users"></i>&nbsp &nbsp &nbsp المستخدمين</h5></a>
+                  
+                    <a href="travels.html"><h5><i class="fa fa-suitcase"></i>&nbsp &nbsp &nbsp الرحلات</h5></a>
+                  
+                    <a  href="#" tabindex="-1" aria-disabled="true"><h5><i class="fas fa-door-open"></i>&nbsp &nbsp &nbsp تسجيل الخروج</h5></a>
+                  
         
            </div>
-            
+            <div style="margin-left:19.5%;">
             <div class="part col-md-3 col-sm-12 col-xs-12" style=" height: 655px; width: 279px; ">
               <div class="part1">
-                <div class="col-md-3 sign1"><i style="color:whitesmoke;" class="fa fa-info-circle"></i></div>
+                <div class="col-md-3 sign1"><i style="color:#FAFAFA; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="fa fa-info-circle"></i></div>
                 <div class="col-md-6">
-                  <h3>Complaint</h3>
-                  <h4>waiting</h4>
+                  <h3 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">الشكاوى</h3>
+                  <h4 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">انتظار..</h4>
                 </div>
                 
               </div>
               <div class="part2">
                   <div class="col-md-3 sign2"><i style="color:whitesmoke;" class="fa fa-car"></i></div>
                   <div class="col-md-6">
-                      <h3>Drivers</h3>
-                      <h4>1698</h4>
+                      <h3 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">السائقين</h3>
+                      <h4 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">1698</h4>
                     </div>
               </div>
               <div class="part3">
                   <div class="col-md-3 sign3"><i style="color:whitesmoke;" class="fa fa-suitcase"></i></div>
                   <div class="col-md-6">
-                      <h3>Travels</h3>
-                      <h4>4876</h4>
+                      <h3 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">الرحلات</h3>
+                      <h4 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">4876</h4>
                     </div>
               </div>
               <div class="part4">
                   <div class="col-md-3 sign4"><i style="color:whitesmoke;" class="fas fa-users"></i></div>
                   <div class="col-md-6">
-                      <h3>Riders</h3>
-                      <h4>1620</h4>
+                      <h3 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">المستخدمين</h3>
+                      <h4 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">1620</h4>
                     </div>
               </div>
               <div class="part5">
                 <div class="tit">
-                   <h2 style="font-size:19px; color:whitesmoke; font-weight:bold; padding-top: 20px; text-align: center;">Drivers awaiting approval</h2>
-                   <h4 style="padding-left:28px;">922 in total</h4>
+                   <h2 style="font-size:19px; color:whitesmoke; font-weight:bold; padding-top: 20px; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">سائقين قيد الانتظار</h2>
+                   <h4 style="text-align: center;"><span>922</span> اجمالى</h4>
                 </div>
                 <div class="form-check" style="margin-left:20px; margin-top: 10px;">
                     <label class="form-check-label">
@@ -125,12 +106,52 @@
                       <input type="checkbox" class="form-check-input" value="">&nbsp Option 2
                     </label>
                   </div>
+                  <hr>
+                  <div class="form-check" style="margin-left:20px; margin-top: 10px;">
+                      <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" value="">&nbsp Option 2
+                      </label>
+                    </div>
+                    <hr>
+                    <div class="form-check" style="margin-left:20px; margin-top: 10px;">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" value="">&nbsp Option 2
+                        </label>
+                      </div>
+                      <hr>
+                      <div class="form-check" style="margin-left:20px; margin-top: 10px;">
+                          <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" value="">&nbsp Option 2
+                          </label>
+                        </div>
+                        <hr>
+                        <div class="form-check" style="margin-left:20px; margin-top: 10px;">
+                            <label class="form-check-label">
+                              <input type="checkbox" class="form-check-input" value="">&nbsp Option 2
+                            </label>
+                          </div>
+                          <hr>
+                          <div class="form-check" style="margin-left:20px; margin-top: 10px;">
+                              <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input" value="">&nbsp Option 2
+                              </label>
+                            </div>
+                            <hr>
+                            <div class="form-check" style="margin-left:20px; margin-top: 10px;">
+                                <label class="form-check-label">
+                                  <input type="checkbox" class="form-check-input" value="">&nbsp Option 2
+                                </label>
+                              </div>
+                              <hr>
+                              
               </div>
         
            </div>
             <div class="part col-md-4 col-sm-12 col-xs-12" style=" height: 655px;width: 490px; ">
 
-                <div id="googleMap" style="width:110%;height:350px; margin-left: -10px;"></div>
+                <div style="width:531.44px;height:430px; margin-left:-32px; margin-top: 10px;">
+                    <div class="mapouter"><div class="gmap_canvas"><iframe width="531" height="430" id="gmap_canvas" src="https://maps.google.com/maps?q=Saudi%20Arabia&t=&z=9&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:430px;width:531px;}.gmap_canvas {overflow:hidden;background:none!important;height:430px;width:531px;}</style></div>
+                </div>
                 <div class="panel-body">
                     <div id="chart1"></div>
                 </div>
@@ -147,7 +168,7 @@
                     <p style="color: whitesmoke;margin-left: 30px;"><i class="fa fa-check"></i>&nbsp Teste</p>
                     <br>
                     <br>
-                    <h4 style="text-align: center;">ADD AN EVENT</h4>
+                    <a href=""><h4 style="text-align: center; font-size: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">اضف حدث</h4></a>
                   </div>
                   <div class="part7">
                       <img src="assets/img/1200px-Pictogram_voting_question.svg.png" style="width:80px; height:80px; margin-left: 100px;margin-top: 80px;"/>
@@ -158,16 +179,7 @@
         
         </div>
     </div>
-
-    <script>
-        function myMap() {
-        var mapProp= {
-          center:new google.maps.LatLng(51.508742,-0.120850),
-          zoom:5,
-        };
-        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-        }
-        </script>
+</div>
         <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
         
         <link rel="stylesheet" type="text/css" href="http://www.shieldui.com/shared/components/latest/css/light/all.min.css" />

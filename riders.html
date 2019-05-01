@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8" />
+  <meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title></title>
+  <title>فرسان-المستخدمين</title>
 	
-	<link rel="shortcut icon" href="assets/img/">
+	<link rel="shortcut icon" href="assets/img/1742-oncoming-taxi.png">
 
 	
 	<!-- BOOTSTRAP -->
@@ -22,211 +22,130 @@
 
   <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+  <style>
+  .active{
+    color:#009688;
+  }
+  div>li{
+    padding: 15px;
+  }
+  div>li:hover{
+    background-color: #f3eded;
+  }
+  </style>
+  <script>
+  $(document).ready(function(){
+      $(this).addClass("active");
+  });
+  </script>
 </head>
     <body>
     <div class="container-fluied">
         <div class="row">
-           <div class="part col-md-2 col-sm-12 col-xs-12" style="border-color:whitesmoke; height: 655px; width: 250px;background-color: #fafafa;">
+           <div class="part col-md-2 col-sm-12 col-xs-12" style="border-color:whitesmoke; height: 640px; width: 256px;background-color: #FAFAFA; position: fixed; z-index: 2000;">
                <div class="prof">
-                  <h1>Profile Name</h1>
-                 <div class="pic" style="font-size:20px;text-align: center;
-                 padding-top: 14px;
-                 color: whitesmoke;"><p>N</p></div>
+                  <h1>فرسان</h1>
                  
               </div>
                <br>
-                <ul class="nav">
-                  <li class="nav-item">
-                    <a class="nav-link " href="index.html"><i class="fa fa-list"></i>&nbsp &nbsp &nbsp Dashboard</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa fa-phone"></i>&nbsp &nbsp &nbsp Call Request</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa fa-info-circle"></i>&nbsp &nbsp &nbsp Complaints</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><span class="glyphicon glyphicon-euro" aria-hidden="true"></span>&nbsp &nbsp &nbsp Payment requests</a>
-                  </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa fa-gift"></i>&nbsp &nbsp &nbsp Coupons</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa fa-car"></i>&nbsp &nbsp &nbsp Drivers</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="riders.html"><i class="fas fa-users"></i>&nbsp &nbsp &nbsp Riders</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><i class="fa fa-bullhorn"></i>&nbsp &nbsp &nbspPromotions</a>
-                  </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa fa-suitcase"></i>&nbsp &nbsp &nbsp Travels</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>&nbsp &nbsp &nbsp Media Library</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><a class="nav-link" href="#"><span class="glyphicon glyphicon-book" aria-hidden="true"></span>&nbsp &nbsp &nbsp Base Definations</a></a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Service</a>
-                      <a class="dropdown-item" href="#">Cars</a>
-                      <a class="dropdown-item" href="#">Complaint types</a>
-                    </div>
-                  </li>
-    
+                
+                    <a  href="index.html"><h5><i class="fa fa-list"></i>&nbsp &nbsp &nbsp لوحة التحكم</h5></a>
                   
-                  <li class="nav-item">
-                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><i class="fa fa-cog"></i>&nbsp &nbsp &nbsp Settings</a>
-                  </li>
-                    <li class="nav-item">
-                    <a class="nav-link " href="#" tabindex="-1" aria-disabled="true"><i class="fas fa-door-open"></i>&nbsp &nbsp &nbsp Logout</a>
-                  </li>
-                </ul>
+                  
+                    <a  href="complaints.html"><h5><i class="fa fa-info-circle"></i>&nbsp &nbsp &nbsp الشكاوى</h5></a>
+                  
+                  
+                    <a  href="drivers.html"><h5><i class="fa fa-car"></i>&nbsp &nbsp &nbsp السائقين</h5></a>
+                  
+                    <a  href="riders.html"><h5 class="active"><i class="fas fa-users"></i>&nbsp &nbsp &nbsp المستخدمين</h5></a>
+                  
+                    <a href="travels.html"><h5><i class="fa fa-suitcase"></i>&nbsp &nbsp &nbsp الرحلات</h5></a>
+                  
+                    <a  href="#" tabindex="-1" aria-disabled="true"><h5><i class="fas fa-door-open"></i>&nbsp &nbsp &nbsp تسجيل الخروج</h5></a>
+                  
         
            </div>
-            <div class="col-md-9" style="border-color: #a5a5a5;margin-left: 10px; height: 600px; background-color: #ffffff; box-shadow: 2px 2px 2px #d9d9d9;margin-top: 10px;width: 1091px;">
-                <h3 style="font-weight: normal; color:#000000;">Riders</h3>
-                
-                <label style="margin-left: 648px;">Statue</label>
-                <div class="dropdown">
-                    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Show all
-                    <span class="caret"></span></button>
-                    <ul class="dropdown-menu">
-                      <li><a href="#"></a></li>
-                      <li><a href="#"></a></li>
-                      <li><a href="#"></a></li>
-                      <li><a href="#"></a></li>
-                    </ul>
+
+            <div class="col-md-9" style="width:1073px;border-color: #a5a5a5;margin-left: 20.25%;height: 630px; background-color: #ffffff; box-shadow: 2px 2px 2px #d9d9d9;margin-top: 10px;overflow:scroll;">
+                <div class="table_header">
+                  <div class="col-md-7">
+                      <h3 style="font-weight: normal; color:#000000;">المستخدمين</h3>
                   </div>
-                <i style=" -webkit-appearance: none; border-color: transparent;border-bottom-color: black; "class="fa fa-search"></i><input type="text" placeholder="Search..">
-            <div class="table-responsive">          
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th></th> 
-                    <th>ID</th>
-                    <th>Firstname</th>
-                    <th>Lastname</th>
-                    <th>Mobile number</th>
-                    <th>Balance</th>
-                    <th>Address</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><label class="form-check-label">
-    <input type="checkbox" class="form-check-input" value="">
-  </label></td> 
-                    <td>1</td>
-                    <td>Anna</td>
-                    <td>Pitt</td>
-                    <td>35</td>
-                    <td>New York</td>
-                    <td>USA</td>
-                  </tr>
-                    <tr>
-                        <td><label class="form-check-label">
-    <input type="checkbox" class="form-check-input" value="">
-  </label></td>
-                    <td>1</td>
-                    <td>Anna</td>
-                    <td>Pitt</td>
-                    <td>35</td>
-                    <td>New York</td>
-                    <td>USA</td>
-                  </tr>
-                    <tr>
-                        <td><label class="form-check-label">
-    <input type="checkbox" class="form-check-input" value="">
-  </label></td>
-                    <td>1</td>
-                    <td>Anna</td>
-                    <td>Pitt</td>
-                    <td>35</td>
-                    <td>New York</td>
-                    <td>USA</td>
-                  </tr>
-                    <tr>
-                        <td><label class="form-check-label">
-    <input type="checkbox" class="form-check-input" value="">
-  </label></td>
-                    <td>1</td>
-                    <td>Anna</td>
-                    <td>Pitt</td>
-                    <td>35</td>
-                    <td>New York</td>
-                    <td>USA</td>
-                  </tr>
-                    <tr>
-                        <td><label class="form-check-label">
-    <input type="checkbox" class="form-check-input" value="">
-  </label></td>
-                    <td>1</td>
-                    <td>Anna</td>
-                    <td>Pitt</td>
-                    <td>35</td>
-                    <td>New York</td>
-                    <td>USA</td>
-                  </tr>
-                    <tr>
-                        <td><label class="form-check-label">
-    <input type="checkbox" class="form-check-input" value="">
-  </label></td>
-                    <td>1</td>
-                    <td>Anna</td>
-                    <td>Pitt</td>
-                    <td>35</td>
-                    <td>New York</td>
-                    <td>USA</td>
-                  </tr>
-                    <tr>
-                        <td><label class="form-check-label">
-    <input type="checkbox" class="form-check-input" value="">
-  </label></td>
-                    <td>1</td>
-                    <td>Anna</td>
-                    <td>Pitt</td>
-                    <td>35</td>
-                    <td>New York</td>
-                    <td>USA</td>
-                  </tr>
-                    <tr>
-                        <td><label class="form-check-label">
-    <input type="checkbox" class="form-check-input" value="">
-  </label></td>
-                    <td>1</td>
-                    <td>Anna</td>
-                    <td>Pitt</td>
-                    <td>35</td>
-                    <td>New York</td>
-                    <td>USA</td>
-                  </tr>
-                    <tr>
-                        <td><label class="form-check-label">
-    <input type="checkbox" class="form-check-input" value="">
-  </label></td>
-                    <td>1</td>
-                    <td>Anna</td>
-                    <td>Pitt</td>
-                    <td>35</td>
-                    <td>New York</td>
-                    <td>USA</td>
-                  </tr>
-                    
-                        
-           
-                </tbody>
-              </table>
-              </div>
+                  <div class="col-md-2">
+                      <h5 class="btn btn-success dropdown-toggle" data-toggle="dropdown" >حالة المستخدمين</h5>
+                      <div class="dropdown">
+                          
+                          <div class="dropdown-menu">
+                            <ul>
+                              <div>
+                                  <li style="list-style-type: none;"><a class="dropdown-item" href="#" style="font-size:14px; color:#009688;">عرض الكل</a></li>
+                              </div>
+                              <div>
+                                  <li style="list-style-type: none;"><a class="dropdown-item" href="#" style="font-size:14px; color:#009688;">الغير مفعلين</a></li>
+                              </div>
+                              <div>
+                                  <li style="list-style-type: none;"> <a class="dropdown-item" href="#" style="font-size:14px; color:#009688;">المحظورين</a></li>
+                              </div>
+                            </ul>
+                            
+                            
+                           
+                          </div>
+                        </div>
+                  </div>
+                  <!-- Search form -->
+                <div class="col-md-3 md-form mt-0" style="margin-top:10px;">
+                  <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                </div>
+                </div>
+                <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th scope="col">العنوان</th>
+                        <th scope="col">كشف الحساب</th>
+                        <th scope="col">رقم التلفزيون</th>
+                        <th scope="col">الاسم</th>
+                        <th scope="col">رقم الهوية</th>
+                        <th scope="col"><input type="checkbox"/></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                      </tr>
+                      <tr>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
             
             </div>
-            
+            </div>
            
         
         </div>
     </div>
 
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     </body>
 </html>

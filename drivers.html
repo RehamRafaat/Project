@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>فرسان-السائقين</title>
+	
+	<link rel="shortcut icon" href="assets/img/1742-oncoming-taxi.png">
+
+	
+	<!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/Template-BarChart/bootstrap/css/bootstrap.min.css" />
+
+	<!-- GLOBAL CSS -->
+	<link rel="stylesheet" href="assets/css/style.css" />
+
+	<!-- FONTS -->
+	<link rel="stylesheet" href="assets/css/open-sans/open-sans.css" />
+  <link rel="stylesheet" href="assets/css/font-awesome-4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="assets/fontawesome-free-5.8.1-web/css/all.css" />
+
+  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+  <style>
+  .active{
+    color:#009688;
+  }
+  .checked{
+     color:rgb(15, 190, 15);
+   }
+  div>li{
+    padding: 15px;
+  }
+  div>li:hover{
+    background-color: #f3eded;
+  }
+  </style>
+  <script>
+  $(document).ready(function(){
+      $(this).addClass("active");
+  });
+  </script>
+</head>
+    <body>
+    <div class="container-fluied">
+        <div class="row">
+           <div class="part col-md-2 col-sm-12 col-xs-12" style="border-color:whitesmoke; height: 640px; width: 256px;background-color: #FAFAFA; position: fixed; z-index: 2000;">
+               <div class="prof">
+                  <h1>فرسان</h1>
+                 
+              </div>
+               <br>
+                
+                    <a  href="index.html"><h5><i class="fa fa-list"></i>&nbsp &nbsp &nbsp لوحة التحكم</h5></a>
+                  
+                  
+                    <a  href="complaints.html"><h5><i class="fa fa-info-circle"></i>&nbsp &nbsp &nbsp الشكاوى</h5></a>
+                  
+                  
+                    <a  href="drivers.html"><h5 class="active"><i class="fa fa-car"></i>&nbsp &nbsp &nbsp السائقين</h5></a>
+                  
+                    <a  href="riders.html"><h5><i class="fas fa-users"></i>&nbsp &nbsp &nbsp المستخدمين</h5></a>
+                  
+                    <a href="travels.html"><h5><i class="fa fa-suitcase"></i>&nbsp &nbsp &nbsp الرحلات</h5></a>
+                  
+                    <a  href="#" tabindex="-1" aria-disabled="true"><h5><i class="fas fa-door-open"></i>&nbsp &nbsp &nbsp تسجيل الخروج</h5></a>
+                  
+        
+           </div>
+
+            <div class="col-md-9" style="width:1073px;border-color: #a5a5a5;margin-left: 20.25%;height: 630px; background-color: #ffffff; box-shadow: 2px 2px 2px #d9d9d9;margin-top: 10px;overflow:scroll;">
+                    <div class="table_header">
+                            <div class="col-md-7">
+                                <h3 style="font-weight: normal; color:#000000;">السائقين</h3>
+                            </div>
+                            <div class="col-md-2">
+                                    <h5 class="btn btn-success dropdown-toggle" data-toggle="dropdown" >حالة السائقين</h5>
+                                    <div class="dropdown">
+                                        
+                                        <div class="dropdown-menu">
+                                          <ul>
+                                            <div>
+                                                <li style="list-style-type: none;"><a class="dropdown-item" href="#" style="font-size:14px; color:#009688;">عرض الكل</a></li>
+                                            </div>
+                                            <div>
+                                                <li style="list-style-type: none;"><a class="dropdown-item" href="#" style="font-size:14px; color:#009688;">الغير مفعلين</a></li>
+                                            </div>
+                                            <div>
+                                                <li style="list-style-type: none;"> <a class="dropdown-item" href="#" style="font-size:14px; color:#009688;">المحظورين</a></li>
+                                            </div>
+                                          </ul>
+                                          
+                                          
+                                         
+                                        </div>
+                                      </div>
+                                </div>
+                            
+                            <!-- Search form -->
+                          <div class="col-md-3 md-form mt-0" style="margin-top:10px;">
+                            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                          </div>
+                          
+                          
+                          </div>
+                          <table class="table table-hover">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">رقم العربية</th>
+                                    <th scope="col">التقييم</th>
+                                    <th scope="col">رقم التلفزيون</th>
+                                    <th scope="col">الاسم</th>
+                                    <th scope="col">الحالة</th>
+                                    <th scope="col">رقم الهوية</th>
+                                    <th scope="col"></th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>س س س 1 2 3</td>
+                                    <td> <span class="fa fa-star checked"></span>
+                                        <br>
+                                        <span class="fa fa-star checked"></span>
+                                        <br>
+                                        <span class="fa fa-star checked"></span>
+                                        <br>
+                                        <span class="fa fa-star"></span>
+                                        <br>
+                                        <span class="fa fa-star"></span>
+                                        <br></td>
+                                    <td>0124578985</td>
+                                    <td>مروان العدوى</td>
+                                    <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                                    <td>4</td>
+                                    <td><input type="checkbox"/></td>
+                                  </tr>
+                                  <tr>
+                                        <td>س س س 1 2 3</td>
+                                        <td> <span class="fa fa-star checked"></span>
+                                            <br>
+                                            <span class="fa fa-star checked"></span>
+                                            <br>
+                                            <span class="fa fa-star checked"></span>
+                                            <br>
+                                            <span class="fa fa-star"></span>
+                                            <br>
+                                            <span class="fa fa-star"></span>
+                                            <br></td>
+                                        <td>0124578985</td>
+                                        <td>مروان العدوى</td>
+                                        <td><i class="fa fa-ban" aria-hidden="true"></i></i></td>
+                                        <td>4</td>
+                                        <td><input type="checkbox"/></td>
+                                      </tr>
+                                      <tr>
+                                            <td>س س س 1 2 3</td>
+                                            <td> <span class="fa fa-star checked"></span>
+                                                <br>
+                                                <span class="fa fa-star checked"></span>
+                                                <br>
+                                                <span class="fa fa-star checked"></span>
+                                                <br>
+                                                <span class="fa fa-star"></span>
+                                                <br>
+                                                <span class="fa fa-star"></span>
+                                                <br></td>
+                                            <td>0124578985</td>
+                                            <td>مروان العدوى</td>
+                                            <td><i class="fa fa-cloud" aria-hidden="true"></i></i></td>
+                                            <td>5</td>
+                                            <td><input type="checkbox"/></td>
+                                          </tr>
+                                </tbody>
+                              </table>
+            
+            </div>
+            
+           
+        
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </body>
+</html>
